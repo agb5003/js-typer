@@ -1,0 +1,97 @@
+body {
+    flex: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono'; font-size: 16px;
+}
+
+.author {
+    font-size: 10px;
+}
+
+.head{
+    font-size: 27px;
+    margin-bottom: auto;
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+  }
+  
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+  
+.innerContainer {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 650px;
+    border: none;
+    border-radius: 15px;
+    background-color: #eaeaea;
+    align-items: center;
+    justify-content: center;
+/* Whatever width you want */
+}
+
+.inputResetContainer {
+    display: flex;
+    align-items: stretch;
+}
+
+.p1 {
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-right: 20px;
+    font-family: 'Roboto Mono'; font-size: 18px;
+    font-size: large;
+    display:inline-block;
+}
+
+.resetButton {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: 20px;
+    font-family: 'Roboto Mono'; font-size: 20px;
+    height: 36px;
+    width: 80px;
+    background-color: #d4d4d4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.resetButton:hover {
+    background-color: #adadad;
+}
+
+.inputBoxContainer {
+    display: flex;
+    align-items: stretch;
+}
+
+.inputBox {
+    margin-left: 22px;
+    text-indent: 10px;
+    height: 30px;
+    width: 78%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    font-family: 'Roboto Mono'; font-size: 18px;
+    background-color: white;
+}
+
+.caption {
+    position: fixed;
+    bottom: 5px;
+}
