@@ -13,17 +13,7 @@ let HTMLtext;
 
 window.onload = function() {
     resetPrompt();
-    // wordArray = newPrompt();
-    // wordArrayForHTML = wrapper(wordArray);
-    // HTMLtext = wordArrayForHTML.join(" ");
-    // document.getElementById('paragraph1').innerHTML = HTMLtext;
-    // correctWords = 0;
-    // currentWordIndex = 0;
-    // inputBoxElement.style.backgroundColor = 'white';
-    // inputBoxElement.value = '';
-    // inputBoxElement.addEventListener('input', (event) => { // Wait for first input
-    //     startTime = new Date();
-    // }, {once: true})
+    inputBoxElement.focus();
 }
 
 document.getElementById("Reset").onclick = function() { // WHEN ELEMENT WITH ID "Reset" IS CLICKED:CHANGES LABEL ABOVE TEXTBOX TO "Welcome, <username>"
